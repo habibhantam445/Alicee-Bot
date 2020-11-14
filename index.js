@@ -14,7 +14,7 @@ const info = require("./lib/info.js");
 //
 const BotName = 'ALICE BOT 🤖'; // Nama Bot Whatsapp
 const instagramlu = 'https://instagram.com/maureengabriella'; // Nama Instagramlu cok
-const whatsapplu = '0819-4698-3575'; // Nomor whatsapplu cok
+const whatsapplu = '0851-5632-1170'; // Nomor whatsapplu cok
 const kapanbotaktif = '24 Jam'; // Kapan bot lu aktif
 const grupch1 = 'Link Not Found'; // OFFICIAL GRUP LU 1
 const grupch2 = 'Link Not Found'; // OFFICIAL GRUP LU 2
