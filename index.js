@@ -14,10 +14,10 @@ const info = require("./lib/info.js");
 //
 const BotName = 'ALICE BOT 🤖'; // Nama Bot Whatsapp
 const instagramlu = 'https://instagram.com/maureengabriella'; // Nama Instagramlu cok
-const whatsapplu = '0851-5632-1170'; // Nomor whatsapplu cok
+const whatsapplu = '0819-4698-3575'; // Nomor whatsapplu cok
 const kapanbotaktif = '24 Jam'; // Kapan bot lu aktif
-//const grupch1 = 'Link Grub Lu'; // OFFICIAL GRUP LU 1
-//const grupch2 = 'Link Grub Lu'; // OFFICIAL GRUP LU 2
+const grupch1 = 'Link Not Found'; // OFFICIAL GRUP LU 1
+const grupch2 = 'Link Not Found'; // OFFICIAL GRUP LU 2
 //
 const
 {
@@ -63,7 +63,7 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @bintang_nur_pradana`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by HabibHantam`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
